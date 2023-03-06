@@ -1,0 +1,81 @@
+h3{
+    color: #555;
+    letter-spacing: 2px;
+}
+.container{
+    padding: 20px;
+}
+.issues-input{
+    width: 100%;
+    background: #ebebeb;
+    border: 1px solid lightblue;
+    border-radius: 5px;    
+    padding: 5px 10px 10px 5px;
+    
+}
+
+.results-count{
+    text-align: right;
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.issue{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px 10px 10px 5px ;
+    margin-top: 5px;
+    width: 100%;
+}
+.issue:focus{
+    background: lightblue;
+    border: 1px solid blue;
+    cursor: pointer;   
+}
+.issue:hover{
+    background: lightblue;
+    border: 1px solid blue;
+    cursor: pointer;   
+}
+.title{
+    font-weight: bold;
+}
+.labels{
+    margin-left: -5px;
+}
+
+.label{
+    padding: 3px 5px 3px 5px;    
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px black;
+    font-size: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.loader {
+    width: 240px;
+    height: 240px;
+    padding: auto;
+    margin-left: 40%;
+    border: 25px solid #86bef1;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
